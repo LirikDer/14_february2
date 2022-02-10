@@ -1,0 +1,21 @@
+from time import *
+from os import *
+
+print('\n' * 15, ' ' * 115, 'Ключ от сердца', '\n', ' ' * 113, end = '')
+a = str(input('Введите пароль:'))
+if a != 'I love you':
+    system('cls||clear')
+    print('\n' * 15, ' ' * 115, 'Ключ от сердца')
+    print(' ' * 110, 'Введите пароль: I love you')
+sleep(1)
+system('cls||clear')
+for p in range(3):
+    for o in range(3):
+        print('\n' * 15, ' ' * 117, 'Загрузка', '.' * (o + 1))
+        sleep(0.5)
+        system('cls||clear')
+print('\n' * 15, ' ' * 109, 'С Днём Святого Валентина!')
+sleep(2)
+system('cls||clear')
+print('\n' * 15, ' ' * 113, 'Сядь мне на лицо')
+sleep(3)
